@@ -14,7 +14,7 @@ app.use(express.json());
 
 // CORS Configuration
 const corsOptions = {
-    origin: ["http://localhost:5173", ], // Allowed origins
+    origin: ["http://localhost:5173", "https://finance-frontend.netlify.app/"], // Allowed origins
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"], // Allowed HTTP methods
     allowedHeaders: ["Content-Type", "Authorization"], // Allowed headers
     credentials: true, // Allow cookies and credentials
